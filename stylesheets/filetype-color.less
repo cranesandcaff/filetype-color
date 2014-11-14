@@ -1,114 +1,105 @@
-.filetype-color-js
-{
-    color: #90c276;
+@import "ui-variables";
+
+// Coffeescript files
+[data-name$='.coffee'],
+[data-name$='.litcoffee']
+[data-name$='.coffee.md']
+[data-name='Cakefile'] {
+  color: #b0734b;
 }
 
-.filetype-color-md
-{
-    color: #78b4c4;
+// JavaScript files
+[data-name$='.js'] {
+  color: #90c276;
+}
+// Meta configuration files
+[data-name='.biscottoopts']
+[data-name$='gitignore']
+[data-name$='.gitattributes']
+[data-name$='.gitkeep']
+[data-name$='.npmignore']
+[data-name$='.npmrc']
+[data-name$='.rspec']
+[data-name$='.pairs']
+[data-name$='.spectacular']
+[data-name='Procfile']
+[data-name$='.ruby-version']
+[data-name='.yardopts']
+[data-name$='.editorconfig']
+[data-name$='.bowerrc'] {
+  color: #c9a07d;
 }
 
-.filetype-color-json
-{
-    color: #b17bc7;
+
+
+// Ruby files
+[data-name$='.rb']
+[data-name$='.ru']
+[data-name$='.rake']
+[data-name$='.gemspec']
+[data-name='Gemfile']
+[data-name='Rakefile']
+[data-name='Guardfile']
+[data-name='Capfile']
+[data-name$='gemrc']
+[data-name$='pryrc'] {
+  color: #E0115F;
+}
+// Stylesheets
+[data-name$='.styl']
+[data-name$='.css']
+[data-name$='.sass']
+[data-name$='.scss']
+[data-name$='.less'] {
+  color: #8078c4;
 }
 
-.filetype-color-cson
-{
-    color: #c67dc9;
+
+// Templates
+[data-name$='.jade']
+[data-name$='.haml']
+[data-name$='.erb']
+[data-name$='.hbs']
+[data-name$='.slim'] {
+  color: #5cb5db;
 }
 
-.filetype-color-npmignore
-{
-    color: #c97d7d;
+// In project configuration files
+[data-name$='.json']
+[data-name$='.cson']
+[data-name$='.yml'] {
+  color: #c67dc9;
 }
 
-.filetype-color-gitignore
-{
-    color: #c9a07d;
+
+// HTML files
+[data-name$='.html'] {
+  color: #5cb5db;
 }
 
-.filetype-color-yml
-{
-    color: #bec97d;
+
+
+// Images files
+[data-name$='.jpg']
+[data-name$='.png']
+[data-name$='.gif']
+[data-name$='.psd']
+[data-name$='.svg']
+[data-name$='.ico'] {
+  color: #d5b559;
 }
 
-.filetype-color-txt
-{
-    color: #7dc9c6;
+// Markdown files
+[data-name$='.md'] {
+  color: #78b4c4;
 }
 
-.filetype-color-coffee
-{
-    color: #b0734b;
-}
 
-.filetype-color-php
-{
-    color: #5991db;
-}
-
-.filetype-color-less
-{
-    color: #78c497;
-}
-
-.filetype-color-sass
-{
-    color: #8078c4;
-}
-
-.filetype-color-css
-{
-    color: #c478c3;
-}
-
-.filetype-color-jshintrc
-{
-    color: #c77b9f;
-}
-
-.filetype-color-editorconfig
-{
-    color: #c77b81;
-}
-
-.filetype-color-png
-{
-    color: #d5b559;
-}
-
-.filetype-color-gif
-{
-    color: #d6d85b;
-}
-
-.filetype-color-jpg
-{
-    color: #c2d85b;
-}
-
-.filetype-color-html
-{
-    color: #5cb5db;
-}
-
-.filetype-color-sh
-{
-    color: #de5ebd;
-}
-
-.filetype-color-htaccess
-{
-    color: #e16178;
-}
-
-.filetype-color-module
-{
-    color: #e1c761;
-}
-
-.filetype-color-xml
-{
-    color: #a9e161;
+// Shell scripts
+[data-path*='bin/']
+[data-name$='.sh']
+[data-name$='.bat']
+[data-name$='.cmd']
+[data-name$='.ps1'] {
+  color: #de5ebd;
 }
